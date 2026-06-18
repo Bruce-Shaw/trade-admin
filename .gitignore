@@ -1,0 +1,22 @@
+# Mac系统文件
+.DS_Store
+
+# IDE配置
+.vscode/
+.idea/
+
+# 依赖
+node_modules/
+package-lock.json
+
+# Umi 临时文件（核心，解决你Access导出报错根源）
+.umi/
+src/.umi/
+dist/
+
+# 环境变量（防止密钥上传）
+.env
+.env.*
+
+# 日志
+*.log
